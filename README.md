@@ -28,31 +28,6 @@ dataset/imdb_movies.csv
 
 ---
 
-## Project Structure
-
-```text
-Web-Scraper/
-├── scraper.py
-├── plot_descript.py
-├── plot_inf.py
-├── dataset/
-│   └── imdb_movies.csv
-└── results/
-    ├── descriptive_statistics/
-    │   ├── descriptive_statistics.csv
-    │   ├── missing_values.csv
-    │   ├── movies_per_year.png
-    │   ├── rating_boxplot.png
-    │   ├── rating_distribution.png
-    │   └── rating_vs_year.png
-    └── inferential_statistics/
-        ├── inferential_statistics_results.csv
-        ├── one_sample_t_test.png
-        ├── two_sample_t_test.png
-        ├── director_anova.png
-        └── year_rating_correlation.png
-```
-
 ---
 
 ## Requirements
