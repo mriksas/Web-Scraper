@@ -28,8 +28,6 @@ dataset/imdb_movies.csv
 
 ---
 
----
-
 ## Requirements
 
 - Python 3.10 or later
@@ -147,7 +145,7 @@ The source is a curated movie list rather than a random sample of all IMDb title
 
 ## Movies by Release Year
 
-![Number of Movies by Release Year](results/descriptive_statistics/movies_per_year.png)
+<img width="4752" height="2053" alt="movies_per_year" src="https://github.com/user-attachments/assets/26cf771a-921e-4d86-aa2d-54437ec56408" />
 
 The dataset contains movies released from approximately the late 1920s to the early 2010s.
 
@@ -159,7 +157,8 @@ This pattern reflects the composition of the selected IMDb list. It should not b
 
 ## Rating Box Plot
 
-![IMDb Rating Box Plot](results/descriptive_statistics/rating_boxplot.png)
+<img width="2352" height="1452" alt="rating_boxplot" src="https://github.com/user-attachments/assets/f5a3aa0e-9e44-4a12-aaed-857720224d9d" />
+
 
 The median IMDb rating is approximately **7.7**.
 
@@ -171,7 +170,8 @@ The relatively narrow central range confirms that the selected list mainly conta
 
 ## Rating Distribution
 
-![Distribution of IMDb Ratings](results/descriptive_statistics/rating_distribution.png)
+<img width="2653" height="1754" alt="rating_distribution" src="https://github.com/user-attachments/assets/902f9899-0648-424e-b76a-00eb8dc641a2" />
+
 
 The mean rating is approximately **7.71**, while the median is approximately **7.70**.
 
@@ -181,7 +181,8 @@ Because the mean and median are nearly identical, the distribution is not strong
 
 ## Rating by Release Year
 
-![IMDb Rating by Release Year](results/descriptive_statistics/rating_vs_year.png)
+<img width="3252" height="1753" alt="rating_vs_year" src="https://github.com/user-attachments/assets/57d9d7b2-0e12-467e-b21f-f46e43f3780d" />
+
 
 The scatter plot does not show a strong relationship between release year and rating.
 
@@ -202,7 +203,8 @@ H0: μ = 7.0
 H1: μ ≠ 7.0
 ```
 
-![One-Sample T-Test](results/inferential_statistics/one_sample_t_test.png)
+<img width="2653" height="1754" alt="one_sample_t_test" src="https://github.com/user-attachments/assets/7a711cba-c1df-4a1e-87e6-28b01af92443" />
+
 
 The observed sample mean is approximately **7.71**, which is clearly higher than the hypothesised value of 7.0.
 
@@ -223,8 +225,7 @@ Welch's two-sample t-test compares:
 H0: μbefore = μafter
 H1: μbefore ≠ μafter
 ```
-
-![Movie Ratings Before and After 2000](results/inferential_statistics/two_sample_t_test.png)
+<img width="2652" height="1754" alt="two_sample_t_test" src="https://github.com/user-attachments/assets/164016f4-5ea0-4082-a82d-fd6163d167e0" />
 
 The two groups have very similar medians, both close to 7.7, and their interquartile ranges overlap strongly.
 
@@ -243,7 +244,8 @@ H0: ρ = 0
 H1: ρ ≠ 0
 ```
 
-![Relationship Between Release Year and IMDb Rating](results/inferential_statistics/year_rating_correlation.png)
+<img width="2952" height="1753" alt="year_rating_correlation" src="https://github.com/user-attachments/assets/a3065ca7-8584-4db9-812e-5622c695fc22" />
+
 
 The regression line has a slight negative slope, but the observations are widely dispersed around it.
 
@@ -268,7 +270,7 @@ H0: All director mean ratings are equal
 H1: At least one director mean rating is different
 ```
 
-![Movie Ratings by Director](results/inferential_statistics/director_anova.png)
+<img width="3252" height="2054" alt="director_anova" src="https://github.com/user-attachments/assets/a209522d-80dc-4fe0-bb33-b299d8bc991c" />
 
 The distributions differ visually across directors.
 
