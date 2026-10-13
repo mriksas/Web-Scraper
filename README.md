@@ -1,5 +1,21 @@
 # IMDb Web Scraper and Statistical Analysis
 
+> A complete data workflow that collects IMDb movie records, cleans them, and produces descriptive and inferential statistical evidence.
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-Web%20Automation-43B02A?logo=selenium&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-Statistical%20Tests-8CAAE6?logo=scipy&logoColor=white)
+
+```mermaid
+flowchart LR
+    A[IMDb pages] --> B[Selenium scraper]
+    B --> C[Clean CSV dataset]
+    C --> D[Descriptive statistics]
+    C --> E[Hypothesis tests]
+    D --> F[Tables and plots]
+    E --> F
+```
+
 ## Overview
 
 This project collects movie data from an IMDb list and performs descriptive and inferential statistical analysis.
